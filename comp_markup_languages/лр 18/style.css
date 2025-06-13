@@ -1,0 +1,49 @@
+.first{
+    text-decoration: line-through;
+}
+.second{
+    text-decoration: underline;
+}
+.third{
+    text-decoration: overline;
+}
+.fourth{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blueviolet;
+    text-transform: uppercase;
+}
+.fifth{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-style: double;
+}
+.sixth{
+    text-shadow: 1px 1px 2px rgb(223, 11, 46);
+    font-size: 25px;
+}
+.fdiv {
+    background-color: rgb(183, 26, 79);
+    height: 80px;
+    width: 300px;
+}
+.seventh{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 1px black, -2px 2px white, -3px 3px black, -4px 4px white, -5px 5px black, -6px 6px white, -7px 7px black, -8px 8px white, -9px 9px black, -10px 10px white, -11px 11px black ;
+}
+.sdiv {
+    background-color: pink;
+    height: 200px;
+    width: 800px;
+}
+.eight{
+    font-size: 150px;
+    color: pink;
+    text-align: center;
+    text-shadow: 5px 0px rgba(241, 107, 129, 0.7), 10px 0px rgba(241, 107, 129, 0.6), 15px 0px rgba(241, 107, 129, 0.5), 20px 0px rgba(241, 107, 129, 0.4), 25px 0px rgba(241, 107, 129, 0.3) ;
+}
+.ninth::first-line{
+    letter-spacing: 7px;
+}

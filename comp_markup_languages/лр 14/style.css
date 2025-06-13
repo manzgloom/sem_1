@@ -1,0 +1,33 @@
+body{
+    border: 4px solid green;
+    color: blueviolet;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+a:visited{
+    color: inherit;
+}
+.second{
+    border: inherit;
+    padding: inherit;
+    margin: inherit;
+}
+.third{
+    color: initial;
+    width: 600px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 0.85rem;
+}
+section{
+    background-image: url(/images/gary-bendig-6gmq7agxnbe-unsplash-1140x694.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    color: unset;
+}

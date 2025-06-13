@@ -1,0 +1,71 @@
+span{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    color: red;
+}
+.obz{
+    width: 80px;
+    height: 230px;
+    background-color: grey;
+    padding: 5px;
+    
+}
+.krug{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: red;
+}
+.obz :nth-child(2){
+    background-color: yellow;
+}
+.obz :nth-child(3){
+    background-color: green;
+}
+.peizag{
+    position: relative;
+}
+.sun{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+.white{
+    background-color: white;
+    border: 3px solid black;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    
+}
+.foto{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.square{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 5px;
+}
+.pei{
+    position: relative;
+}
+.text{
+    position: absolute;
+    z-index: 23;
+    top: 10px;
+    left: 10px;
+}
+.yakor{
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 50;
+}

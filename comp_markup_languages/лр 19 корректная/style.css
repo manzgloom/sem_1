@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Rubik'; 
+	src: url(RubikMonoOne-Regular.ttf); 
+}
+body{
+    font-family: 'Rubik';
+    text-transform: uppercase;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1259px;
+}
+header{
+    background: #220142;
+    padding: 49px 0;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+li{
+    display: inline-block;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+}
+li:hover{
+    color: #F98513;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.merc_ven{
+    margin-right: 390px;
+    margin-left: 390px;
+}
+section:first-child{
+    background: #2E0458;
+    padding: 176px 329px 177px 329px;
+}
+.cosm{
+    color: #FBF4FC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.04px;
+    margin-right: 124px;
+    vertical-align: 179px;
+}
+.one div div{
+    display: inline-block;
+}
+span{
+    color: #F98513;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.56px;
+}
+section:nth-child(2){
+    background: #220142;
+    padding: 100px 332px 100px 330px;
+}
+.two div div{
+    display: inline-block;
+    border-radius: 50px;
+    background: #2E0458;
+    box-shadow: 5px 5px 10px 0px #411370;
+    width: 600px;
+    height: 700px;
+}
+.merc{
+    margin-right: 58px;
+}
+.merc_img{
+    margin: 37px 157px 376px 158px;
+    transition: 0.8s;
+}
+.merc_img:hover{
+    transform: scale(1.2);
+}
+.ven_img{
+    margin: 33px 157px 380px 156px;
+}
+.ven_img:hover{
+    animation: spin 0.8s linear 0s infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+section:nth-child(3){
+    background: #2E0458;
+}
+.earth{
+    display: inline-block;
+    width: 600px;
+    margin-bottom: 120px;
+}
+.three div div:first-child{
+    color: #00D5F5;
+    text-align: center;
+    text-shadow: 2px 2px 10px #55E9FF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 16px;
+    margin-bottom: 36px;
+}
+.three div div:nth-child(2){
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+}
+.three img{
+    margin: 119px auto 120px 330px;
+}
+u{
+    color: #A896D3;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+    text-decoration-line: underline;
+}
+footer{
+    background: #220142;
+    padding: 68px 0;
+}
+p{
+    text-align: center;
+    color: #705EA9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.54px;
+}
+.maket{
+    margin-bottom: 30px;
+}

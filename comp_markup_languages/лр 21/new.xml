@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE anket
+[
+<!ELEMENT anket (first_name, second_name, surname)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT second_name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+]
+>
+<anket>
+    <first_name>Артюх</first_name>
+    <second_name>Милослава</second_name>
+    <surname>Андреевна</surname>
+</anket>

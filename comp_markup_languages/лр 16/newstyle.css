@@ -1,0 +1,50 @@
+div{
+    display: inline-block;
+    background-image: url(/images/peizag.jpg);
+    height: 200px;
+    width: 200px;
+}
+section :first-child{
+    background-position: center;
+}
+section :nth-child(2){
+    background-position: 100% 100%;
+}
+section :nth-child(3){
+    background-position: 50px 100px;
+    background-repeat: no-repeat;
+  
+}
+section :nth-child(4){
+    background-position: left bottom;
+}
+.first{
+    height: 200px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/images/peizag1.jpg);
+}
+.second{
+    height: 200px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/images/peizag2.jpg);
+}
+.third{
+    height: 200px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/images/peizag3.jpg);
+}
+.seventh {
+    height:300px;
+    background-image:  url("/images/peizag1.jpg"), url("/images/peizag2.jpg");  
+    background-size: 100px 100px, 300px 300px;
+    background-repeat: no-repeat;
+}
+            

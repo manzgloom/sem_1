@@ -1,0 +1,48 @@
+div {
+    background-color: red;
+    margin: 2px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+.first{
+    border-radius: 80px 0 80px 0;
+}
+.second{
+    border-radius: 15px 15px 15px 15px;
+    background-color: aqua;
+}
+.third{
+    border-radius: 100px 100px 100px 0;
+    background-color: palegoldenrod;
+}
+.fourth{
+    border-radius: 100px 100px 100px 100px;
+    background-color: limegreen;
+}
+.fifth{
+    border-radius: 100px 100px 0 0;
+    background-color: saddlebrown;
+}
+.sixth{
+    border-radius: 50px 50px 100px 100px;
+    background-color: salmon;
+}
+.seventh{
+    background-color: blue;
+    border-radius: 150px 0 150px 0;
+}
+.eighth{
+    background-image: url(/images/peizag.jpg);
+}
+h2 {
+    background-color: white;
+    mix-blend-mode: lighten;
+    font-size: 100px;
+}
+.zabor {
+    background-size: 200px 100px;
+    background-repeat: repeat-x;
+    background-image: url(/images/zabor.jpg);
+    height: 200px;
+}
