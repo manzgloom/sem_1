@@ -1,0 +1,21 @@
+﻿Сборка начата 11/29/2023 2:42:56 PM.
+Уровень детализации журнала: Normal.     1>Проект "C:\сыч\уник\врпо\Лабы\Lab05\Lab05\Lab05.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Lab05.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\сыч\уник\врпо\Лабы\Lab05\x64\Debug\Lab05.exe" /INCREMENTAL /ILK:"x64\Debug\Lab05.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\сыч\уник\врпо\Лабы\Lab05\x64\Debug\Lab05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\сыч\уник\врпо\Лабы\Lab05\x64\Debug\Lab05.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\mul.obj
+         x64\Debug\sum.obj
+         Lab05.vcxproj -> C:\сыч\уник\врпо\Лабы\Lab05\x64\Debug\Lab05.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab05.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab05.tlog\Lab05.lastbuildstate".
+     1>Сборка проекта "C:\сыч\уник\врпо\Лабы\Lab05\Lab05\Lab05.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.40
