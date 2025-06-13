@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            cursor: url(/images/racoon32.jpg), pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Данные о пользователе</legend>
+            <label for="name">Имя: </label><br>
+            <input type="text" id="name" placeholder="введите имя"><br>
+            <label for="surname">Фамилия: </label><br>
+            <input type="text" id="surname" placeholder="введите фамилию" required><br>
+            <label for="name3">Отчество: </label><br>
+            <input type="text" id="name3" placeholder="введите отчество"><br>
+            <p>ваш пол:</p>
+            <input type="radio" name="pol">Мужской <br>
+            <input type="radio" name="pol">Женский
+        </fieldset>
+        <fieldset>
+            <legend>Анкета:</legend>
+            <p>Какую специальность Вы считаете перспективной?</p>
+            <input type="checkbox" name="prof"> Издательское дело <br>
+            <input type="checkbox" name="prof"> Химия <br>
+            <input type="checkbox" name="prof"> Программирование <br>
+            <input type="checkbox" name="prof"> Дизайн электронный и веб-изданий <br>
+        </fieldset>
+        <p>Дополнительные предметы:
+        <select name="dop">
+            <optgroup label="1.01 Дизайн электронных и веб-изданий"></optgroup>
+            <option value="1.01.1">Лекция 1: Виды сайтов</option>
+            <option value="1.01.2">Лекция 2: Прототип</option>
+            <option value="1.01.3">Лекция 3: Макет</option>
+            <optgroup label="1.02 Компьютерные языки разметки"></optgroup>
+            <option value="1.02.1">Лекция 1: HTML</option>
+            <option value="1.02.2">Лекция 2: CSS</option>
+        </select>
+        </p>
+        <p><label for="kurs">Курс  <input type="number" min="2" max="6" id="kurs"></label>
+        </p>
+        <p>
+            <input type="file">
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>

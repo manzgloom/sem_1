@@ -1,0 +1,57 @@
+p.first::first-letter{
+    color: rgb(0, 0, 168);
+    font-size: 100px;
+    text-align: justify;
+    float: left;
+}
+p.first{
+    width: 300px;
+}
+p.first::before{
+    content:"куку";
+}
+p.first::after{
+    content:"ура";
+}
+span::before{
+    content:"«";
+    color:blue;
+}
+span::after{
+    content:"»";
+    color:red;
+}
+p.second::before{
+    content:"«Текст перед абзацем» ";
+}
+p.second::after{
+    content:" «Текст после абзацa»";
+}
+p.second::first-line{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 0);
+}
+div{
+    border: 2px blue solid;
+    margin-bottom: 1px;
+    width: 100px;
+    padding: 5px 10px 5px 5px;
+    text-align: left;
+    color: blue;
+}
+ul{
+    list-style-type: none;
+}
+li:hover{
+    font-weight: bold;
+}
+input::placeholder{
+    color: red;
+}
+input{
+    background-color: coral;
+    color: cadetblue;
+}
+textarea::placeholder{
+    color: rgb(0, 238, 255);
+}

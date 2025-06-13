@@ -1,0 +1,19 @@
+p b{
+    color: green;
+}
+p.first{
+    color: green;
+    font-style: oblique;
+}
+div>h3{
+    color: blue;
+    text-decoration: line-through;
+}
+i+i{
+    color: brown;
+    text-decoration:overline;
+}
+span+i{
+    color: brown;
+    text-decoration:overline;
+}

@@ -1,0 +1,68 @@
+a:link{
+    color:aqua;
+    font-size: 20px;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: rgb(0, 116, 62);
+    font-size: 25px;
+    cursor: url(/images/racoon32.jpg), pointer;
+} 
+a:active{
+    color:blue;
+    text-transform: uppercase;
+}
+
+
+.first li:nth-child(even){
+    color: rgb(120, 10, 223);
+}
+.first_1 li:nth-child(odd){
+    color: rgb(223, 10, 205);
+}
+
+
+table{
+    width: 400px;
+    height: 200px;
+}
+td{
+    border-style: solid;
+    border-color: black;
+}
+tr:nth-child(even){
+    background-color: brown;
+}
+tr:nth-child(odd){
+    background-color: rgb(165, 138, 42);
+}
+tr:hover{
+    background-color: chartreuse;
+}
+
+
+.second li:last-child{
+    color: blueviolet;
+}
+.second li:first-child{
+    color: blueviolet;
+}
+
+
+.third li:nth-child(3){
+    color: crimson;
+}
+
+
+.fourth  li:nth-last-child(2){
+    color: rgb(230, 0, 230);
+}
+.fourth  li:nth-child(3n){
+    color: rgb(230, 0, 0);
+}
+
+h4:first-of-type{
+    color: rebeccapurple;
+}

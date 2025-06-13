@@ -1,0 +1,12 @@
+ul li {
+    text-transform: uppercase;
+}
+p.first a {
+    color: green;
+}
+p .first a {
+    color: green;
+}
+.first a {
+    color: green;
+}

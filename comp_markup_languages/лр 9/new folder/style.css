@@ -1,0 +1,27 @@
+body {
+    font-size: 14px;
+    color: #330099;
+    line-height: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    font-size: 40px;
+    color: #3333FF;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: 30px;
+    color: #12ac11;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+.list{
+    font-size: 12px;
+    color: #FF6600;
+    font-style: oblique;
+    list-style-type: square;
+}
+.p {
+    color:#12ac11;
+}

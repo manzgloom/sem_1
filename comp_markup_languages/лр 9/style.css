@@ -1,0 +1,25 @@
+p {
+    color: blue;
+    text-align: justify;
+    width: 400px;
+    height: 200px;
+}
+#first{
+    width: 300px;
+}
+#second{
+    text-align: center;
+}
+h1 {
+    color: aqua;
+    text-align: center;
+}
+h2 {
+    color: green;
+    text-align: right;
+    
+}
+h3 {
+    color: orange;
+    text-transform: uppercase;
+}

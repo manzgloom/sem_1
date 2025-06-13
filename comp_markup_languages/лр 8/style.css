@@ -1,0 +1,48 @@
+header{
+    text-align: center;
+    background: #ffFA5F;
+    width: 100px;
+}
+nav{
+    float: left;
+    width: 150px;
+    background: #FFAA00;
+}
+nav h2 {
+    text-align: center;
+}
+section{
+    float: right;
+    margin: 10px auto;
+    width: 1070px;
+    background: #0000ff;
+ }
+section h1{
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+article{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding-left: 5px;
+    text-align: center;
+    background: #7BE7BE;
+}
+article h2{
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    background: #FFFFFF;
+}
+footer{
+    clear: both;
+    height: 40px;
+    padding: 10px;
+    background: #8B4;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+}

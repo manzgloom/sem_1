@@ -1,0 +1,53 @@
+body{
+    width: 350px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+h4{
+    color: blue;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+span+i{
+    color: blue;
+}
+p>i{
+    color: blue;
+}
+
+a.line{
+    background: url("/images/external.png") no-repeat scroll left center transparent;
+    padding: 0 0 0 20px ;
+    border-left: 2px solid black;
+    margin-left: 10px;
+}
+
+[href]{
+    color: red;
+}
+[href^="https"]{
+    color: blue;
+    text-transform: uppercase;
+}
+[href$="Собака"]{
+    color:aqua;
+    text-transform: lowercase;
+}
+[href*="оал"]{
+    color:chartreuse;
+    text-decoration: line-through;
+}
+[download~="audio"]{   
+    color:black;
+    text-decoration: underline;
+}
+
